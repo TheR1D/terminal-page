@@ -11,7 +11,7 @@ body {
 #terminal {
   height: 500px;
   background-color: #1f1f1f;
-  padding: 20px 20px;
+  padding: 10px 20px;
   border-radius: 10px;
   overflow: auto;
   position: relative;
@@ -21,12 +21,6 @@ body {
   display: none;
 }
 
--- #input-row {
---   position: absolute;
---   bottom: 0;
---   margin-bottom: 20px;
--- }
-
 #terminal-input {
   background-color: transparent;
   border: transparent;
@@ -34,10 +28,13 @@ body {
   color: inherit;
   font-family: inherit;
   font-size: 16px;
-  -- margin-left: -5px;
 }
 
 .terminal-text {
-  -- padding-bottom: 20px;
+  margin: 0 0 10px;
+}
+
+#content a {
+  color: gray;
 }
 
